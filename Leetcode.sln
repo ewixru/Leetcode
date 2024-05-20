@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "running-sum-of-1d-array", "src\running-sum-of-1d-array\running-sum-of-1d-array.csproj", "{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE} = {ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}
+	EndGlobalSection
+EndGlobal
