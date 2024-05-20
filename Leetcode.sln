@@ -5,30 +5,36 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "running-sum-of-1d-array", "src\running-sum-of-1d-array\running-sum-of-1d-array.csproj", "{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode", "src\Leetcode\Leetcode.csproj", "{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "richest-customer-wealth", "src\richest-customer-wealth\richest-customer-wealth.csproj", "{ACEEDC2A-25A8-42A4-8AAD-0B83EAE51A3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leetcode.Tests", "src\Leetcode.Tests\Leetcode.Tests.csproj", "{AD42598D-0872-495D-8265-D4B71E8E8A17}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801} = {5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD42598D-0872-495D-8265-D4B71E8E8A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD42598D-0872-495D-8265-D4B71E8E8A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD42598D-0872-495D-8265-D4B71E8E8A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD42598D-0872-495D-8265-D4B71E8E8A17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ACEEDC2A-25A8-42A4-8AAD-0B83EAE51A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACEEDC2A-25A8-42A4-8AAD-0B83EAE51A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACEEDC2A-25A8-42A4-8AAD-0B83EAE51A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACEEDC2A-25A8-42A4-8AAD-0B83EAE51A3E}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A7FFD16D-30DE-4E8F-89EE-2D89744CC6CE} = {ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}
-		{ACEEDC2A-25A8-42A4-8AAD-0B83EAE51A3E} = {ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}
+		{5AF7F98B-3BBB-4014-B7E7-B5CE3A9B3801} = {ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}
+		{AD42598D-0872-495D-8265-D4B71E8E8A17} = {ABCDCDB3-AC5C-4FF7-BD90-646D67D22881}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308C890B-2F70-4734-A95E-F7F8B2F632AB}
 	EndGlobalSection
 EndGlobal
